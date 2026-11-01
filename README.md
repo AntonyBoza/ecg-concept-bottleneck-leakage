@@ -4,7 +4,7 @@ Concept bottleneck models (CBMs) predict human-readable concepts first and the d
 
 **Main finding.** Soft CBMs reach good accuracy partly through *concept leakage*: diagnostic information hidden in the soft concept probabilities. As a result, correcting their concepts with annotated values makes them **worse**, not better. Two separable causes explain it: incomplete form annotations in PTB-XL and information carried by soft probabilities. A hard CBM restores intervenability but tops out near 0.70 AUROC; a hybrid with a residual channel and residual dropout matches the black box while keeping corrections beneficial, but its concepts then carry only 1–3% of the decision.
 
-📄 **Report:** [link to the PDF report]
+📄 **Report (10 pages, PDF):** [report/when_concepts_leak.pdf](report/when_concepts_leak.pdf)
 
 ## Key results
 
@@ -36,8 +36,9 @@ Other findings:
 │   ├── 02_blackbox_baseline.ipynb        # 1D ResNet, random-crop ablation, 5 seeds
 │   └── 03_cbm_and_interventions.ipynb    # CBM variants, interventions, leakage diagnosis,
 │                                          # λ sweep, hybrid residual CBM
-├── figures/                               # figures used in the report
-├── results/                               # CSV tables exported by the notebooks
+├── figures/                               # figures used in the report (fig1–fig6, supplementary figS*)
+├── results/                               # black-box results and training histories, concept list
+├── report/when_concepts_leak.pdf          # technical report
 └── README.md
 ```
 
@@ -69,4 +70,4 @@ PTB-XL is distributed by PhysioNet under the Creative Commons Attribution 4.0 li
 
 ## Author
 
-Antonio Ramón Boza León · [LinkedIn](https://www.linkedin.com/in/antonio-boza/?locale=en_US) · arbozaleon@gmail.com
+Antonio Ramón Boza León · [LinkedIn](https://www.linkedin.com/) · arbozaleon@gmail.com

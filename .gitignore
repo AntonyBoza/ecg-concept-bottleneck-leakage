@@ -1,0 +1,7 @@
+# Kaggle / large artifacts
+*.npy
+*.npz
+*.pt
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
