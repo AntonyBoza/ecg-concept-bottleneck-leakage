@@ -70,4 +70,4 @@ PTB-XL is distributed by PhysioNet under the Creative Commons Attribution 4.0 li
 
 ## Author
 
-Antonio Ramón Boza León · [LinkedIn](https://www.linkedin.com/) · arbozaleon@gmail.com
+Antonio Ramón Boza León · [LinkedIn](https://www.linkedin.com/in/antonio-boza/) · arbozaleon@gmail.com
